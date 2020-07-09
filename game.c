@@ -9,4 +9,11 @@ int main(){
     scanf("%d", &chute);
     printf("O numero: %d \n", num);
     printf("Seu chute foi %d \n", chute);
+    if (chute == num){
+        printf("Acertou!\n");
+
+    }else{
+        printf("Errou!\n");
+    }
+    
 }
